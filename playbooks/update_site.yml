@@ -1,0 +1,6 @@
+---
+- hosts: vampire
+  gather_facts: yes
+  become: yes
+  roles:
+    - ../roles/update_site

@@ -1,0 +1,11 @@
+servers:
+  hosts:
+    cyclops:
+      ansible_host: xxx.xxx.xxx.xxx
+    vampire:
+      ansible_host: xxx.xxx.xxx.xxx
+    werewolf:
+      ansible_host: xxx.xxx.xxx.xxx
+  vars:
+    ansible_user: xxx
+    ansible_python_interpreter: /usr/bin/python3
