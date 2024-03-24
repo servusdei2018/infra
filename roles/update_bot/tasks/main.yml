@@ -3,4 +3,6 @@
   ansible.builtin.git:
     repo: "https://github.com/servusdei2018/elmobot"
     dest: "/home/ubuntu/elmobot"
-  notify: Build and restart elmobot
+  notify: 
+    - Build elmobot
+    - Restart elmobot

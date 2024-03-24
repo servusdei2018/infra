@@ -1,7 +1,5 @@
 ---
 - name: Restart caddy
-  block:
-    - name: Restart caddy service
-      ansible.builtin.systemd_service:
-        name: caddy.service
-        state: reloaded
+  ansible.builtin.systemd_service:
+    name: caddy.service
+    state: reloaded
