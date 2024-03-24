@@ -3,7 +3,7 @@
   ansible.builtin.apt:
     name: "*"
     state: latest
-  notify: check_reboot
+  notify: Check reboot
 
 - name: Remove useless packages from the cache
   ansible.builtin.apt:

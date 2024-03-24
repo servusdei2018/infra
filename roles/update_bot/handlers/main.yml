@@ -1,5 +1,5 @@
 ---
-- name: build_and_restart_elmobot
+- name: Build and restart elmobot
   block:
     - name: Build elmobot
       ansible.builtin.script:

@@ -1,5 +1,5 @@
 ---
-- name: check_reboot
+- name: Check reboot
   block:
     - name: Check if a reboot is needed
       register: reboot_required_file
