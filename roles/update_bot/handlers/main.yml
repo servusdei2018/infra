@@ -1,9 +1,11 @@
 ---
 - name: Build elmobot
-  ansible.builtin.script:
-  cmd: /home/ubuntu/elmobot/build.sh
+  ansible.builtin.command:
+    cmd: ./build.sh
+    chdir: /home/ubuntu/elmobot
+
 - name: Restart elmobot
   ansible.builtin.systemd_service:
-  name: elmobot.service
-  state: reloaded
-  scope: user
+    name: elmobot.service
+    state: restarted
+    scope: user

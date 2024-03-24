@@ -1,5 +1,4 @@
 ---
 - hosts: werewolf
-  become: yes
   roles:
     - ../roles/update_bot

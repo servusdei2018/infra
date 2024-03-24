@@ -3,8 +3,6 @@
   ansible.builtin.apt:
     name: "*"
     state: latest
-  changed_when: true
-  notify: Check reboot
 
 - name: Remove useless packages from the cache
   ansible.builtin.apt:
@@ -19,7 +17,7 @@
   block:
     - name: Check if a reboot is needed
       register: reboot_required_file
-      stat: path=/var/run/reboot-required get_md5=no
+      stat: path=/var/run/reboot-required
 
     - name: Reboot if needed
       reboot:
