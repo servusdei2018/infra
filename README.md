@@ -18,6 +18,8 @@ to initiate an apt update and upgrade on all of your servers.
 
 - **update_apt.yml**: performs an apt upgrade on all servers, rebooting each system if necessary
 
+- **update_bot.yml**: updates *Werewolf* with the latest source for [elmobot](https://github.com/servusdei2018/elmobot) from the Git repository, builds it, and restarts the elmobot service
+
 - **update_site.yml**: updates *Vampire* with the latest static content for [bracy.dev](https://bracy.dev) from the Git repository, and restarts the caddy service
 
 ## Assets

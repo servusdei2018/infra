@@ -1,0 +1,6 @@
+---
+- name: Update git repository
+  ansible.builtin.git:
+    repo: "https://github.com/servusdei2018/elmobot"
+    dest: "/home/ubuntu/elmobot"
+  notify: ../tasks/build_and_restart_elmobot
