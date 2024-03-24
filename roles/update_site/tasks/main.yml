@@ -3,4 +3,4 @@
   ansible.builtin.git:
     repo: "https://github.com/servusdei2018/bracy.dev.git"
     dest: "/etc/caddy"
-  notify: ../tasks/restart_caddy
+  notify: restart_caddy
