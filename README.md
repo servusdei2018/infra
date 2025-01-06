@@ -4,7 +4,7 @@ Collection of scripts/playbooks for managing my cloud infrastructure.
 
 ## Getting Started
 
-Although these playbooks were created for original use, they may be easily repurposed for use elsewhere.
+Although these playbooks were created for my personal use, they may be easily repurposed for use elsewhere.
 
 To get up and running, populate `servers_example.yml` with your server information, rename it to `servers.yml` and run
 
