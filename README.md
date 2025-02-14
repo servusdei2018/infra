@@ -31,7 +31,7 @@ Each server is catalogued below. Additionally and more importantly, each server 
 
 For ease of administration, all servers currently run Ubuntu 22.04 LTS. Playbooks take this into account, and if you're running another distro you will need to account for differences accordingly.
 
-### Cyclops
+### Titan
 
 ```
 Specs:
@@ -39,12 +39,6 @@ Specs:
   - 24 GB RAM
   - 100 GB storage
   - Ubuntu 22.04 LTS
-
-Services:
-  - Cloud Development Environment
-  - Flutter Toolchain
-  - Go Toolchain
-  - Rust Toolchain
 ```
 
 ### Vampire
@@ -55,9 +49,6 @@ Specs:
   - 1 GB RAM
   - 50 GB storage
   - Ubuntu 22.04 LTS
-
-Services:
-  - Caddy (personal website)
 ```
 
 ### Werewolf
@@ -68,10 +59,6 @@ Specs:
   - 1 GB RAM
   - 50 GB storage
   - Ubuntu 22.04 LTS
-
-Services:
-  - Elmobot (personal Discord bot)
-  - Go toolchain
 ```
 
 ## License
