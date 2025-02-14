@@ -1,6 +1,6 @@
 servers:
   hosts:
-    cyclops:
+    titan:
       ansible_host: xxx.xxx.xxx.xxx
     vampire:
       ansible_host: xxx.xxx.xxx.xxx
